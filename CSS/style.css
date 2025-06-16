@@ -1,0 +1,51 @@
+
+#secao-acervo .card {
+  background-color: #292626; 
+  border: 1px solid #444;    
+}
+
+#secao-acervo .card-title,
+#secao-acervo .card-text {
+  color: #fffffc; /* Texto em cinza claro para ser legível no fundo escuro */
+}
+
+/* Altera o botão primário SOMENTE dentro da seção 'secao-acervo' */
+#secao-acervo .btn-primary {
+  background-color: #1d1d1d; /* Cor dourada/bege */
+  border-color: #80812e;
+  color: #ecb251;            /* Texto do botão em cor escura para contraste */
+  font-weight: 600;
+}
+
+.hero-section {
+    background-color: #292626;
+}
+.footer-custom{
+    background-color: #292626;
+    color: #ecb251
+}
+h1, h2 {
+    color: #ecb251
+}
+p {
+    color: #fffffc
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1d1d1d;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 450px; /* Altura fixa para as imagens dos cards */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+}
