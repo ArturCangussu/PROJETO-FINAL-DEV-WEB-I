@@ -1,4 +1,36 @@
 
+.form-label {
+    color: #fffffc; 
+}
+
+
+.form-control {
+    background-color: #f8f9fa; 
+    color: #000000;
+    border: 1px solid #555;  
+}
+
+#contactForm .btn-primary {
+    background-color: #1d1d1d;
+    border-color: #80812e;
+    color: #ecb251;
+    font-weight: 600;
+}
+
+#contactForm .btn-primary:hover {
+    background-color: #80812e;
+    border-color: #ecb251;
+    color: #1d1d1d;
+}
+
+
+main header .lead {
+  color: #adb5bd; 
+  font-size: 1.1rem; 
+}
+#book-list .card-text {
+  color: #292626;
+}
 #secao-acervo .card {
   background-color: #292626; 
   border: 1px solid #444;    
@@ -6,14 +38,13 @@
 
 #secao-acervo .card-title,
 #secao-acervo .card-text {
-  color: #fffffc; /* Texto em cinza claro para ser legível no fundo escuro */
+  color: #fffffc;
 }
 
-/* Altera o botão primário SOMENTE dentro da seção 'secao-acervo' */
 #secao-acervo .btn-primary {
-  background-color: #1d1d1d; /* Cor dourada/bege */
+  background-color: #1d1d1d; 
   border-color: #80812e;
-  color: #ecb251;            /* Texto do botão em cor escura para contraste */
+  color: #ecb251;           
   font-weight: 600;
 }
 
@@ -24,7 +55,7 @@
     background-color: #292626;
     color: #ecb251
 }
-h1, h2 {
+h1, h2, h3 {
     color: #ecb251
 }
 p {
